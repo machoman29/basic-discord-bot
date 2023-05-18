@@ -109,6 +109,8 @@ def handle_command(command: str, params: list[str]):
             return f'These are some of the commands I can respond to:\n`{pretty_commands}`' # Backticks (`) format text as code in discord
         case '!meetingtime':
             return f'The current meeting time is:\nEvery Wednesday at 5:30pm'
+        case '!botask':
+            return f'The current bot knowledge is lacking, please try again later.'
 
 # ----- RUN ----- #
 # Run the client. This method blocks so any code after will not run
