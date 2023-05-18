@@ -1,6 +1,8 @@
 import os
 import discord
 
+#Austin was here!
+
 # Load environment variables
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD_ID = os.getenv('DISCORD_GUILD_ID')
